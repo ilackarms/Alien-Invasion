@@ -6,7 +6,7 @@ public class greataxe extends weapon
  public greataxe()
  {
   name = "shiny axe";
-  damage = 40;
+  damage = 50;
   value = 500;
    image = gamepackage.rpg_test_1.R.drawable.greataxe;
  }

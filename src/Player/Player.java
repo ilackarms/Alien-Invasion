@@ -1133,7 +1133,7 @@ public void end_game()
 
 public void sell_item(int index)
 {
-	MainActivity.appendTextAndScroll("Value: $"+Integer.toString(inventory[index].value)+"\n");
+	
 	if (inventory[index].value>=0)
 		 {
 			gold+=inventory[index].value;

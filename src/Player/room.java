@@ -43,7 +43,14 @@ public class room extends MainActivity
    lay.setBackgroundResource(image2);
    
 
-   
+   if (difficulty==0)
+   {
+	   save.setVisibility(View.VISIBLE);
+   }
+   else
+   {
+	   save.setVisibility(View.INVISIBLE);
+   }
    
    if (can_move_up)
      north.setVisibility(View.VISIBLE);

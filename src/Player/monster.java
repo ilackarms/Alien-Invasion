@@ -178,10 +178,10 @@ public monster(char type)
 if (type == 'z')
  {
   name = "zombie alien";
-  max_health = 120;
-  current_health = 120;
+  max_health = 220;
+  current_health = 220;
   damage = 15;
-  resistance = 6;
+  resistance = 10;
   Random generator = new Random();
   int r = Math.abs(generator.nextInt());
   int r2 = Math.abs(generator.nextInt());
@@ -210,8 +210,8 @@ if (type == 'z')
 if (type == 'k')
  {
   name = "the krakken";
-  max_health = 150;
-  current_health = 150;
+  max_health = 200;
+  current_health = 200;
   damage = 25;
   resistance = 6;
   spell_resistant=true;
@@ -245,8 +245,8 @@ if (type == 'k')
 if (type == 's')
 {
  name = "robo-spider";
- max_health = 1000;
- current_health = 1000;
+ max_health = 800;
+ current_health = 800;
  damage = 15;
  resistance = 10;
  Random generator = new Random();
@@ -280,7 +280,7 @@ if (type == 'd')
  max_health = 150;
  current_health = 150;
  damage = 40;
- resistance = 8;
+ resistance = 12;
  Random generator = new Random();
  int r = Math.abs(generator.nextInt());
  int r2 = Math.abs(generator.nextInt());
