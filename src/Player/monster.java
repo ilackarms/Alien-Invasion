@@ -247,7 +247,7 @@ if (type == 's')
  name = "robo-spider";
  max_health = 800;
  current_health = 800;
- damage = 15;
+ damage = 25;
  resistance = 10;
  Random generator = new Random();
  int r = Math.abs(generator.nextInt());
@@ -277,9 +277,9 @@ if (type == 's')
 if (type == 'd')
 {
  name = "destroyer";
- max_health = 150;
- current_health = 150;
- damage = 40;
+ max_health = 170;
+ current_health = 170;
+ damage = 50;
  resistance = 12;
  Random generator = new Random();
  int r = Math.abs(generator.nextInt());
@@ -308,9 +308,9 @@ if (type == 'd')
 if (type == 'm')
 {
  name = "mother alien";
- max_health = 1500;
- current_health = 1500;
- damage = 25;
+ max_health = 2500;
+ current_health = 2500;
+ damage = 35;
  resistance = 14;
  Random generator = new Random();
  int r = Math.abs(generator.nextInt());

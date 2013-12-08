@@ -1234,7 +1234,7 @@ sell.setOnClickListener(new View.OnClickListener() {
                   	
                   	if (index==5) //Pot3
                   	{
-                  		if (p1.gold>=(1000))
+                  		if (p1.gold>=(3000))
                   		{
 	                  		int has_empty = -1;
 	                  	   for (int i = 0;  i< p1.sizeof_inventory; i++)
@@ -1253,7 +1253,7 @@ sell.setOnClickListener(new View.OnClickListener() {
 	                  	   } //set inventory marker to next inventory slot
 	                  	   else p1.inventory[has_empty] =  new potion('h',60);
 	                  	   
-	                  	   p1.gold-=1000;
+	                  	   p1.gold-=3000;
                   		}
                   		else
                   		{
